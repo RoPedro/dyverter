@@ -1,0 +1,71 @@
+:root{
+    --primary-color: #1d1d1c;
+    --font-primary-color: #dfdfdf;
+    --hover-color-background: #5f5f5c;
+    --hover-color-text: #fff;
+    
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--primary-color);
+    color: var(--font-primary-color);
+    font-family: 'Segoe UI', sans-serif;
+    user-select: none;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    border: 3px solid red;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    border: 3px solid blue;
+}
+
+#box{
+    text-align: center;
+    border: 3px solid green;
+}
+
+#app_title{
+    font-size: 4rem;
+    display: block;
+}
+
+#choose_unit_subtitle{
+    font-size: 2rem;
+    display: block;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    border: 3px solid yellow;
+    transition: background-color 0.1s;
+    font-size: 1.2rem;
+}
+
+li:hover{
+    background-color: var(--hover-color-background);
+    color: var(--hover-color-text);
+    cursor: pointer;
+    transition: linear 0.1s;
+}
+
+#poundsKg{
+    border: 1px solid purple;
+}
